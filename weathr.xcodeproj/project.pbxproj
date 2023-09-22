@@ -14,6 +14,7 @@
 		FAE373352ABCE29700147202 /* weathrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373342ABCE29700147202 /* weathrTests.swift */; };
 		FAE3733F2ABCE29700147202 /* weathrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3733E2ABCE29700147202 /* weathrUITests.swift */; };
 		FAE373412ABCE29700147202 /* weathrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373402ABCE29700147202 /* weathrUITestsLaunchTests.swift */; };
+		FAE3734E2ABD1B0300147202 /* buttonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3734D2ABD1B0300147202 /* buttonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FAE3733A2ABCE29700147202 /* weathrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weathrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE3733E2ABCE29700147202 /* weathrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathrUITests.swift; sourceTree = "<group>"; };
 		FAE373402ABCE29700147202 /* weathrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weathrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE3734D2ABD1B0300147202 /* buttonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				FAE373222ABCE29400147202 /* weathrApp.swift */,
 				FAE373242ABCE29400147202 /* ContentView.swift */,
+				FAE3734D2ABD1B0300147202 /* buttonView.swift */,
 				FAE373262ABCE29700147202 /* Assets.xcassets */,
 				FAE373282ABCE29700147202 /* weathr.entitlements */,
 				FAE373292ABCE29700147202 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE3734E2ABD1B0300147202 /* buttonView.swift in Sources */,
 				FAE373252ABCE29400147202 /* ContentView.swift in Sources */,
 				FAE373232ABCE29400147202 /* weathrApp.swift in Sources */,
 			);
